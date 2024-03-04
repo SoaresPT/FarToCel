@@ -21,4 +21,11 @@ public class FarToCelTest {
         Assertions.assertEquals(100, FarToCel.kelvintoCel(373.15f), 0.01);
     }
 
+    @Test
+    void testKelvinToFahrenheit() {
+        double test = Math.round(FarToCel.kelvinToFahrenheit(300.1));
+        Assertions.assertEquals(81.0, test, 0.01);
+
+    }
+
 }
