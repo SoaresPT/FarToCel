@@ -13,7 +13,7 @@
             stage('Checkout') {
                 steps {
                     // Checkout code from Git repository
-                    git branch:'main', url:'https://github.com/SoaresPT/FarToCel/'
+                    git branch:'main', url:'https://github.com/SoaresPT/FarToCel.git'
                 }
             }
             stage('Build Docker Image') {
